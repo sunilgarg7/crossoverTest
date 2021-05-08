@@ -6,7 +6,7 @@ No need to deploy it on Server as it is a spring boot application It has integra
 How to run ??
 Just run below command and it will be build:
 
-mvn -Dmaven.test.skip.true clean install
+mvn -Dmaven.test.skip=true clean install
 
 then run the jar file created by maven, usually it will be inside the ./target folder.
 
